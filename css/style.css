@@ -1,0 +1,71 @@
+body{
+    background-color:rgb(247, 230, 230) ;
+    font-family: Tahoma;
+    line-height: 1.5;
+    
+}
+
+     
+
+.title {
+    font: size 45px; 
+    color: rgb(90, 6, 6);
+    text-align: center;
+}
+
+.p1 {font: size 30px; }
+
+.card{
+    width: 100%px;
+    background-color:
+    #fff;
+    box-shadow: 0 5px 10px
+    #ccc;
+border: 1px ;
+margin: 20px;
+padding: 20px;
+float: left;     
+}
+
+.reference {
+    display: none;
+    }
+    .reference ~ .story {
+    display: none;
+    }
+    .reference + label {
+    font-size: 16px;
+    padding: 0;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    
+    }
+    .reference:checked ~ .story {
+    display: block;
+    background: Snow;
+    padding: 10px;
+    background-color:rgb(247, 230, 230) ;
+    }
+
+    .reference1 {
+        display: none;
+        }
+        .reference1 ~ .story1 {
+        display: none;
+        }
+        .reference1 + label {
+        font-size: 16px;
+        padding: 0;
+        color: green;
+        cursor: pointer;
+        display: inline-block;
+        
+        }
+        .reference1:checked1 ~ .story1 {
+        display: block;
+        background: Snow;
+        padding: 10px;
+        background-color:rgb(247, 230, 230) ;
+        }
+
